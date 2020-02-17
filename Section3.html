@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .card {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #333;
+        }
+        
+        .card1 {
+          float: left;
+        }
+        
+        .card1 a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+        
+        .card1 a:hover:not(.active) {
+          background-color: #111;
+        }
+        
+        .active {
+          background-color: #4CAF50;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Programming Languange</h1>
+
+    <div>
+        <ul>
+            <li><a href="https://golang.org/">Golang</a></li>
+            <li><a href="https://www.typescriptlang.org/">Typescript</a></li>
+            <li><a href="https://www.python.org/">Phyton</a></li>
+            <li><a href="https://www.java.com/en/">Java</a></li>
+            <li><a href="http://www.cplusplus.com/">C++</a><li>
+        </ul>
+    </div>
+
+        <ul class="card">
+          <li class="card1"><a class="active" href="#home">Home</a></li>
+          <li class="card1"><a href="#news">News</a></li>
+          <li class="card1"><a href="#contact">Contact</a></li>
+          <li class="card"><a href="#about">About</a></li>
+      </ul>
+
+</body>
+</html>

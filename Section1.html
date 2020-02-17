@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        .tengah {
+            width: 80%;
+        }
+        th, td {
+            padding: 5px;
+            text-align: left;    
+        }
+        a:hover {
+        background-color: red;
+        }
+        .card {
+            text-align: right;
+        }
+        .button {
+            margin: 20px;
+            /* position: absolute;
+            right: 0; */
+            float: right;
+        }
+        .button:active:after {
+            margin: 20px;
+            position: relative;
+            left: 50px;
+        }
+        .row .column.l4 {
+        width: 33.3%;
+        margin-left: auto;
+        left: auto;
+        right: auto;
+        margin-bottom: 15px;
+    }
+
+    .row .column {
+        float: left;
+        box-sizing: border-box;
+        padding: 0 0.75rem;
+        min-height: 1px;
+    }
+    .row {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+    .row::after   {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .card {
+        border: 1px solid black;
+        /* width: 300px; */
+        padding: 10px;
+        text-align: center;
+        margin: 0;
+    }
+    </style>
+</head>
+
+<body>
+    <h1>ZETTABYTE</h1>
+    <h2>HTML</h2>
+
+    <center>
+        <p class="tengah">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium eum commodi fugit consectetur magnam debitis autem neque quod adipisci mollitia similique laudantium porro tempora facilis quasi inventore, perspiciatis id in?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis et, vitae, accusantium cumque libero reprehenderit commodi culpa unde praesentium delectus ipsa rerum repellendus? Iure, eius suscipit! Dignissimos laboriosam quo expedita!
+        </p>
+    </center>
+    <div>
+        <ol>
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Mango</li>
+            <li>Kiwi</li>
+          </ol> 
+          
+          <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                </tr>
+                <tr>
+                    <td>John</td>
+                    <td>22</td>
+                </tr>
+                <tr>
+                    <td>Bush</td>
+                    <td>33</td>
+                </tr>
+                <tr>
+                    <td>Mike</td>
+                    <td>29</td>
+                </tr>
+                <tr>
+                    <td>Tony</td>
+                    <td>25</td>
+                </tr>
+                <tr>
+                    <td>Lupthi</td>
+                    <td>19</td>
+                </tr>
+          </table>
+    </div>
+
+    <h2>CSS</h2>
+
+    <!-- <a href="https://www.zettabyte.sg/">ZETTABYTE</a>
+    <a href="https://github.com/Dianpuspitasari86">Github Dian Puspita Sari</a>
+     -->
+     <div class="row">
+         <button class="button">Right</button>
+         <div>
+         </div>
+
+     </div>
+
+
+    <div class="row">
+        <div class="column l4">
+            <div class="card">
+                <h5>Blog Title 2</h5>
+                <p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy
+                text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+                book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially
+                unchanged. It was popularised in the 1960s, with the release of Letraset sheet containing Loren Ipsum passages, and
+                more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+        </div>
+
+        <div class="column l4">
+            <div class="card">
+                <h5>Blog Title 2</h5>
+                <p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy
+                text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+                book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially
+                unchanged. It was popularised in the 1960s, with the release of Letraset sheet containing Loren Ipsum passages, and
+                more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+        </div>
+        <div class="column l4">
+            <div class="card">
+                <h5>Blog Title 2</h5>
+                <p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy
+                text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+                book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially
+                unchanged. It was popularised in the 1960s, with the release of Letraset sheet containing Loren Ipsum passages, and
+                more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
